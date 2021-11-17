@@ -4,9 +4,9 @@ This extension adds support to monitor [Buildkite](https://buidkite.com) builds 
 
 ## Features
 
-* Keep track of your recent builds
-* Monitor builds across organizations/pipelines
-* Jump directly to builds and pipelines
+- Keep track of your recent builds
+- Monitor builds across organizations/pipelines
+- Jump directly to builds and pipelines
 
 ![GraphQL example](images/example.png)
 
@@ -20,9 +20,8 @@ This extension requires a [Buildkite API Access Token](https://buildkite.com/use
 
 This extension contributes the following settings:
 
-* `buildkite.pollBuildkiteEnabled`: Poll Buildkite for updates
-* `buildkite.pollBuildkiteInterval`: Poll interval (seconds)
-
+- `buildkite.pollBuildkiteEnabled`: Poll Buildkite for updates - default `false`
+- `buildkite.pollBuildkiteInterval`: Poll interval (seconds) - default `30`
 
 ## Contributing
 
